@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Diseño de un producto electrónico',
+    descripcionCurso:
+      'El componente formativo abarca el diseño de productos electrónicos, microcontroladores y sensores. Cada uno cubre conceptos, características, y aplicaciones clave. El diseño incluye fases como el prototipado; los microcontroladores facilitan el control en sistemas electrónicos; y los sensores miden variables físicas y las convierten en señales. Estos elementos son esenciales en la electrónica moderna, mejorando precisión, eficiencia y funcionalidad.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,27 +36,20 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Diseño de producto',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Microcontrolador',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Sensores',
         desarrolloContenidos: true,
       },
     ],
@@ -102,26 +100,92 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Diseño de producto',
+      referencia:
+        'Tecnocom Ingeniería. (2021). Diseño de Productos Electrónicos #1 || Tip de Electrónica. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=JbS_UPN_R-g',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Microcontrolador',
+      referencia:
+        'Alejandro Pérez. (2021). Así son los Mini Ordenadores SÚPER BARATOS que Controlan el Mundo | Microcontrolador ESP32. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=2s6M24PaTKA',
+    },
+    {
+      tema: 'Microcontrolador',
+      referencia:
+        'Instituto Nacional de Educación Tecnológica. (2004). Microprocesadores y microcontroladores: Fichas 1 y 2. Ministerio de Educación, Ciencia y Tecnología de la Nación.',
+      tipo: 'Documento',
+      link: 'http://bnm.me.gov.ar/giga1/documentos/EL007282.pdf',
+    },
+    {
+      tema: 'Sensores',
+      referencia:
+        'Ideatronic (2021). 37 Sensores Básicos PARA ARDUINO/Ideatronic. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=aCyxsQoqaD4',
+    },
+    {
+      tema: 'Sensores',
+      referencia:
+        'Torres, F., y Fernández, C. (s.f.). Clase 2. Sensores y detectores. Universidad de Alicante, Departamento de Física, Ingeniería de Sistemas y Teoría de la Señal, Grupo de Automática, Robótica y Visión Artificial.',
+      tipo: 'Documento',
+      link:
+        'https://rua.ua.es/dspace/bitstream/10045/18433/1/Tema%202_Sensores%20y%20Detectores.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Actuador',
+      significado:
+        'Dispositivo que convierte una señal eléctrica en movimiento u otra acción física.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Circuito Integrado',
+      significado:
+        'Chip que contiene múltiples componentes electrónicos interconectados.',
+    },
+    {
+      termino: 'Microcontrolador',
+      significado:
+        'Dispositivo programable que ejecuta tareas específicas dentro de sistemas electrónicos.',
+    },
+    {
+      termino: 'Precisión',
+      significado:
+        'Grado de exactitud en las mediciones realizadas por un sensor o dispositivo.',
+    },
+    {
+      termino: 'Procesador',
+      significado:
+        'Componente de un microcontrolador que ejecuta instrucciones y procesa datos.',
+    },
+    {
+      termino: 'Prototipado',
+      significado:
+        'Creación de modelos preliminares, físicos o virtuales, para evaluar un diseño.',
+    },
+    {
+      termino: 'Rango de Medida',
+      significado:
+        'Extensión dentro de la cual un sensor puede medir una variable física con precisión.',
+    },
+    {
+      termino: 'Sensor',
+      significado:
+        'Dispositivo que detecta cambios físicos y convierte estos en señales eléctricas.',
+    },
+    {
+      termino: 'Señal Analógica',
+      significado:
+        'Señal continua que representa valores variables de una magnitud física.',
+    },
+    {
+      termino: 'Señal Digital',
+      significado:
+        'Señal que representa datos en forma binaria, como pulsos de encendido y apagado.',
     },
   ],
   referencias: [
