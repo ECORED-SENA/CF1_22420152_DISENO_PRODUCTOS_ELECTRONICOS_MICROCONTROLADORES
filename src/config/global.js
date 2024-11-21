@@ -190,7 +190,28 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Alciatore, D. G., & Histand, M. B. (2011). <i>Introduction to Mechatronics and Measurement Systems</i> (4th ed.). McGraw-Hill Education.',
+      link: '',
+    },
+    {
+      referencia:
+        'Frank, R. (2000). <i>Understanding Smart Sensors</i> (2nd ed.). Artech House.',
+      link: '',
+    },
+    {
+      referencia:
+        'Barrett, S. F., & Pack, D. J. (2006). <i>Embedded Systems: Design and Applications with the 68HC12 and HCS12</i> (1st ed.). Pearson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Horenstein, M. N. (2012). <i>Design Concepts for Engineers</i> (5th ed.). Pearson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Texas Instruments. (2021). <i>Guide to Selecting Sensors for Industrial Applications</i>.',
       link: '',
     },
   ],
@@ -214,8 +235,8 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -224,18 +245,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edgar Mauricio Cortes García',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -245,11 +261,6 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

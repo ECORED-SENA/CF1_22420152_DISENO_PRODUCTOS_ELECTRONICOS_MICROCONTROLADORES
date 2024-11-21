@@ -17,37 +17,37 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Fabricación del acero',
+      tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar el proceso de fabricación del acero, incluyendo las materias primas, el funcionamiento de los diferentes hornos, los subproductos generados, y las técnicas utilizadas para la producción y reciclaje de acero.',
+        '<b> Objetivo:</b> Identificar los conceptos básicos, características, componentes y aplicaciones de los microcontroladores y sensores, así como las diferencias entre estos dispositivos y sus diversas clasificaciones.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la principal función de la piedra caliza en el alto horno?',
+          texto: '¿Cuál es la principal función de un microcontrolador?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Capturar impurezas del hierro fundido.',
+              texto: 'Controlar sistemas complejos con múltiples usuarios.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Actuar como combustible.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Servir de fundente para reducir impurezas.',
+              texto: 'Controlar máquinas sin necesidad de interacción humana.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto:
+                'Procesar grandes cantidades de datos en redes informáticas.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: 'Producir gases de alto horno.',
+              texto: 'Ejecutar aplicaciones de software para usuarios.',
               esCorrecta: false,
             },
           ],
@@ -56,28 +56,29 @@ export default {
         },
         {
           id: 2,
-          texto: 'El arrabio es:',
+          texto:
+            '¿Cuál de los siguientes es un componente básico de un microcontrolador?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Un subproducto del horno eléctrico.',
+              texto: 'Disco duro.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Un producto líquido de la primera fusión del hierro.',
+              texto: 'Memoria RAM para datos.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Un tipo de caliza.',
+              texto: 'Sistema operativo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Un tipo de acero especial.',
+              texto: 'Interfaz de usuario.',
               esCorrecta: false,
             },
           ],
@@ -87,30 +88,29 @@ export default {
         {
           id: 3,
           texto:
-            '¿Cuál de las siguientes opciones describe mejor el proceso de colada continua?',
+            'En el desarrollo de productos, ¿qué etapa implica definir las especificaciones técnicas?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Un proceso de reciclaje de chatarra.',
+              texto: 'Prototipado virtual.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'La extracción del mineral de hierro.',
+              texto: 'Concepto del producto.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'El proceso de solidificación del acero líquido para formar semiproductos.',
-              esCorrecta: true,
+              texto: 'Prototipo funcional.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'La fusión de metales a alta temperatura.',
-              esCorrecta: false,
+              texto: 'Diseño conceptual.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -119,28 +119,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Cuál de estos elementos no es una materia prima del alto horno?',
+            '¿Qué ventaja ofrece el uso de microcontroladores en dispositivos?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Coque.',
+              texto: 'Mayor complejidad en el diseño.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Cobre.',
+              texto: 'Mayor control y fiabilidad del producto.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Mineral de hierro.',
+              texto: 'Aumento del tamaño del dispositivo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Caliza.',
+              texto: 'Reducción de costos sin cambios en prestaciones.',
               esCorrecta: false,
             },
           ],
@@ -149,28 +149,30 @@ export default {
         },
         {
           id: 5,
-          texto: 'El horno convertidor se utiliza para:',
+          texto:
+            '¿Cuál es una aplicación común de los sensores de temperatura?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Controlar el porcentaje de carbono en el acero.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Fundir la caliza.',
+              texto: 'Monitoreo de niveles de líquido.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Medición de temperatura en líquidos y sólidos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Extraer mineral de hierro de las minas.',
+              texto:
+                'Verificación de especificaciones mediante patrones visuales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Realizar el proceso de laminación.',
+              texto: 'Control de objetos metálicos.',
               esCorrecta: false,
             },
           ],
@@ -179,28 +181,29 @@ export default {
         },
         {
           id: 6,
-          texto: '¿Cuál de estos elementos es un subproducto del alto horno?',
+          texto:
+            '¿Cuál de los siguientes sensores es ideal para detectar radiación luminosa?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Gases del alto horno.',
-              esCorrecta: true,
+              texto: 'Sensor de nivel.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Barras de acero.',
+              texto: 'Sensor de proximidad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Perfiles estructurales.',
-              esCorrecta: false,
+              texto: 'Sensor de intensidad LDR.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Alambres para trefilería.',
+              texto: 'Sensor de movimiento.',
               esCorrecta: false,
             },
           ],
@@ -210,28 +213,28 @@ export default {
         {
           id: 7,
           texto:
-            'La función principal del horno eléctrico en la siderurgia moderna es:',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿En qué tipo de aplicaciones son comunes los microcontroladores de la familia PIC de Microchip?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Fabricar acero a partir de chatarra reciclada.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Producir caliza.',
+              texto: 'Procesamiento de imágenes complejas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Sistemas de seguridad y periféricos de computadoras.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Extraer mineral de hierro.',
+              texto: 'Computadoras personales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Crear fundentes para el proceso.',
+              texto: 'Control de grandes bases de datos.',
               esCorrecta: false,
             },
           ],
@@ -241,29 +244,29 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes afirmaciones es correcta sobre la escoria?',
+            '¿Cuál de los siguientes sensores utiliza ondas ultrasónicas para detectar proximidad?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Es el producto principal del horno convertidor.',
+              texto: 'Sensor de fuerza y torsión.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Se utiliza para la fabricación de cemento y abonos.',
-              esCorrecta: true,
+              texto: 'Sensor de temperatura.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Es un subproducto de la laminación.',
+              texto: 'Sensor óptico de barrera.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Se utiliza para fabricar acero inoxidable.',
-              esCorrecta: false,
+              texto: 'Sensor ultrasónico.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -271,19 +274,20 @@ export default {
         },
         {
           id: 9,
-          texto: 'El acero es infinitamente reciclable.',
+          texto:
+            'Los microcontroladores generalmente contienen todos los componentes de un sistema de cómputo en un solo chip.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -291,7 +295,8 @@ export default {
         },
         {
           id: 10,
-          texto: 'El gas de alto horno contiene un 60% de oxígeno.',
+          texto:
+            'Los sensores binarios tienen una salida continua de valores en tensión o corriente.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -312,28 +317,28 @@ export default {
         {
           id: 11,
           texto:
-            '¿Cuál es el objetivo principal del proceso de laminación en caliente?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Cuál es la característica que define la capacidad de un sensor para detectar cambios mínimos en la entrada?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Producir gases del alto horno.',
-              esCorrecta: false,
+              texto: 'Resolución.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Fundir mineral de hierro.',
+              texto: 'Sensibilidad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Transformar palanquillas en productos de acero largo.',
-              esCorrecta: true,
+              texto: 'Rango de medida.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Extraer impurezas del acero.',
+              texto: 'Rapidez de respuesta.',
               esCorrecta: false,
             },
           ],
@@ -343,28 +348,28 @@ export default {
         {
           id: 12,
           texto:
-            '¿Qué elemento se utiliza como fuente de carbono en el alto horno?',
+            '¿Qué componente de un microcontrolador se encarga de realizar los cálculos y operaciones lógicas?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Caliza.',
+              texto: 'Memoria RAM.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Coque.',
+              texto: 'Unidad Central de Proceso (UCP).',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Escoria.',
+              texto: 'Líneas de entrada/salida.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Mineral de hierro.',
+              texto: 'Generador de impulsos de reloj.',
               esCorrecta: false,
             },
           ],
@@ -373,28 +378,30 @@ export default {
         },
         {
           id: 13,
-          texto: 'El horno cuchara se utiliza principalmente para:',
+          texto:
+            '¿Cuál es el objetivo del prototipado virtual en el desarrollo de un producto?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Producir acero inoxidable.',
-              esCorrecta: false,
+              texto:
+                'Evaluar características claves sin necesidad de un modelo físico.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Fundir la caliza.',
+              texto: 'Crear un prototipo físico para pruebas de usuario.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Homogeneizar la carga y eliminar la escoria.',
-              esCorrecta: true,
+              texto: 'Integrar el software con el hardware.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Extraer el arrabio del alto horno.',
+              texto: 'Realizar pruebas climáticas de resistencia.',
               esCorrecta: false,
             },
           ],
@@ -403,28 +410,29 @@ export default {
         },
         {
           id: 14,
-          texto: 'La magnetita y la hematita son ejemplos de:',
+          texto:
+            '¿Qué tipo de sensor es ideal para medir la fuerza aplicada en un conjunto mecánico?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Hidróxidos de hierro.',
+              texto: 'Sensor de temperatura.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Óxidos de hierro.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Sulfuros de hierro.',
+              texto: 'Sensor de velocidad.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Sensor de fuerza y torsión.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Carbonatos de hierro.',
+              texto: 'Sensor de nivel.',
               esCorrecta: false,
             },
           ],
@@ -433,28 +441,30 @@ export default {
         },
         {
           id: 15,
-          texto: '¿Cuál de los siguientes no es un subproducto del alto horno?',
+          texto:
+            '¿Cuál de las siguientes es una ventaja del uso de microcontroladores?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Placas de acero.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Gases del alto horno.',
+              texto: 'Aumento en la complejidad de los dispositivos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Reducción en el tamaño y simplificación de la mano de obra.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Escoria.',
+              texto: 'Necesidad de más componentes externos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Arrabio.',
+              texto: 'Disminución de la confiabilidad en el producto final.',
               esCorrecta: false,
             },
           ],

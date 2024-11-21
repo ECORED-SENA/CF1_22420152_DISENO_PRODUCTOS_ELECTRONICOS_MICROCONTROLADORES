@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-11.mb-5
         figure.bg-color-sintesis.p-5.brounded
-          img(src="@/assets/curso/sintesis.svg", alt="La síntesis presenta el proceso siderúrgico, comenzando con la extracción de hierro, que es triturado y sinterizado antes de ingresar al alto horno. Este utiliza carbón coque como combustible y caliza como fundente, produciendo arrabio y gases de alto horno. El arrabio se carga en el horno convertidor junto con oxígeno y fundentes para obtener acero, mientras que la escoria es un subproducto. La chatarra también se introduce en el proceso a través de un horno eléctrico para ajustar la aleación. El acero final se lamina para producir perfiles estructurales, láminas, platinas y alambres.")
+          img(src="@/assets/curso/sintesis.svg", alt="El diagrama presenta el diseño y control electrónico con microcontroladores y sensores. Incluye fases como conceptualización, diseño funcional, prototipado y pruebas. Los microcontroladores gestionan tareas en sistemas electrónicos, y los sensores convierten variables físicas en señales eléctricas, con clasificación en binarios, digitales y analógicos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

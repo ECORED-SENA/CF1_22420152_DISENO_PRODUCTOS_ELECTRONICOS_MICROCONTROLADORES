@@ -110,7 +110,13 @@
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
-
+.h-card
+  &-1
+    height: 400px
+  &-2
+    height: 300px
+    @media screen and (max-width: $bp-min-sm)
+      height: auto
 .bg-color
   &-1
     background-color: #D7E9FF !important
@@ -129,9 +135,30 @@
     background-color: #FBD9AB !important
   &-8
     background-color: #FDECD4 !important
+  &-9
+    background-color: #F1D3F6 !important
+    padding: 0.5rem !important
+    width: fit-content !important
+  &-10
+    background-color: #A6F8FA !important
+    border-radius: 10px
+  &-11
+    background-color: white !important
+    padding: 0.5rem !important
+  &-12
+    background-color: white !important
+    border-radius: 20px
+  &-13
+    background-color: #F1D3F6 !important
+    border-radius: 10px
+  &-white
+    background-color: white !important
+    border: 1px solid $lightest-gray
   &-secundario
     background-color: $color-secundario !important
-
+  &-sintesis
+    background-color: #F6F6F6
+    
 .tarjeta--boton.bg-color-5:hover
   background-color: #FBD9AB !important
 
@@ -142,6 +169,15 @@
   &-2
     background-image: url("../assets/curso/bg/bg2.png") !important
     background-position: bottom
+  &-3
+    background-image: url("../assets/curso/bg/bg3.svg") !important
+    background-position: top
+  &-4
+    background-image: url("../assets/curso/bg/bg4.svg") !important
+    background-position: center
+  &-5
+    background-image: url("../assets/curso/bg/bg-slider.svg") !important
+    background-position: top
 
 .titulo-tres
   position: relative
@@ -165,6 +201,31 @@
     height: 56px
     transform: translateX(8px)
     background: url('../assets/curso/bullets/icon1.svg') transparent no-repeat bottom left
+/*Componets custom*/
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content,
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #F1D3F6 !important
+.linea-tiempo-d.color-primario .linea-tiempo-d__item__content,
+.linea-tiempo-d.color-primario .linea-tiempo-d__item__number
+  background-color: #D4F0E0 !important
+
+.lista-ul--color.color-adicional-1 li > i:first-of-type
+  color: $color-adicional-1 !important
+.tarjeta--boton.color-primario
+  background-color: #F1D3F6 !important
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    background-color: $color-acento-botones;
+.slyder-a__bullets__item 
+    background-color: #B2FAFC
+    border: 1px solid #B2FAFC;
+.slyder-a__bullets__item--active 
+    background-color: $color-acento-contenido !important
+    border-color: $color-acento-contenido !important;
+
+// Slider Bullet Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+ .slyder-a__bullets__item
+   margin: 0 3px
 
 // Custom List Styles
 .custom-list
@@ -186,3 +247,38 @@
 .bg-color-border
   border: 3px solid #DE93EA
   background-color: #FFF
+
+
+@media screen and (max-width: $bp-max-md)
+  .mb-cus
+    margin-bottom: 1em
+
+// Carousel Styles
+.carousel-bg .fas
+ &.fa-chevron-left, &.fa-chevron-right
+   display: inline-flex
+   align-items: center
+   justify-content: center
+   width: 40px
+   height: 40px
+   background-color: $color-acento-botones
+   border-radius: 50%
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+   color: #000
+   font-size: 16px
+
+
+// Slider Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+ .slyder-f
+   &__main
+     width: 76%
+   &__btn
+     width: 12%
+
+@media screen and (max-width: $bp-max-xs)
+ .slyder-f
+   &__main
+     width: 60%
+   &__btn
+     width: 20%
