@@ -27,6 +27,7 @@
         .titulo-tres.mb-5(data-aos="flip-up")
           h4 Fases del ciclo de desarrollo de un producto  
         p.mb-5 El desarrollo de un producto sigue una serie de fases clave, cada una enfocada en aspectos específicos que optimizan su diseño, evaluación y producción. Estas etapas van desde la conceptualización inicial, pasando por la creación de prototipos virtuales y físicos, hasta la producción de preseries, asegurando que el producto final cumpla con los requisitos técnicos, funcionales y comerciales esperados. 
+        
         .row.justify-content-center.mb-5
           .col-sm-12.col-lg-8
             LineaTiempoD.color-primario
@@ -38,7 +39,7 @@
                   p.mb-0 Establecimiento de las especificaciones técnicas del producto, incluyendo normas, exigencias y procedimientos necesarios para todas las etapas de construcción o desarrollo. 
               .row(numero="3" titulo="Diseño funcional")
                 .col-sm-12.col-lg-12
-                  p.mb-0 Desarrollo del diseño de hardware (componentes físicos) y software (componentes lógicos) del producto. 
+                  p.mb-0 Desarrollo del diseño de #[em hardware] (componentes físicos) y #[em software] (componentes lógicos) del producto. 
               .row(numero="4" titulo="Prototipado virtual")
                 .col-sm-12.col-lg-12
                   p.mb-0 Creación de un modelo virtual del producto con características clave para su evaluación, reduciendo costos y tiempos, y permitiendo un análisis técnico y funcional sin necesidad de un modelo físico. 
@@ -51,6 +52,7 @@
           .col-sm-12.col-lg-4.d-none.d-lg-block
             img(src="@/assets/curso/tema1/3.png", alt="")
         
+
 
 </template>
 

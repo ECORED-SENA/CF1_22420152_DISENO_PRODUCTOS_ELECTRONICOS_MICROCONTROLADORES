@@ -57,7 +57,7 @@
                 span Líneas de entrada/salida (E/S) para comunicación.
               li.d-flex(data-aos="fade-right")
                 i.fas.fa-microchip
-                span Módulos periféricos (temporizadores, convertidores analógico/digital, etc.)
+                span Módulos periféricos (temporizadores, convertidor analógico/digital, etc.)
               li.d-flex(data-aos="fade-right")
                 i.fas.fa-microchip
                 span Generador de impulsos de reloj.
@@ -102,7 +102,7 @@
               .row.justify-content-center.mb-3
                 .col-sm-6.col-md-10.col-lg-10
                     img(src='@/assets/curso/tema2/10.png')
-              p.mb-0 Imagen y sonido, procesamiento de imagen y sonido, control de motores en dispositivos de grabación.
+              p.mb-0 #[b Imagen y sonido], procesamiento de imagen y sonido, control de motores en dispositivos de grabación.
     p.mb-5 Las familias de microcontroladores son: 
 
     .bg-full-width.bg-fondo-5

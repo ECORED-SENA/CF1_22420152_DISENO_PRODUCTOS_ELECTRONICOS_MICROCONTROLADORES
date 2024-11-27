@@ -47,7 +47,8 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Ejecutar aplicaciones de software para usuarios.',
+              texto:
+                'Ejecutar aplicaciones de <em>software</em> para usuarios.',
               esCorrecta: false,
             },
           ],
@@ -396,7 +397,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Integrar el software con el hardware.',
+              texto: 'Integrar el <em>software</em> con el <em>hardware</em>.',
               esCorrecta: false,
             },
             {
